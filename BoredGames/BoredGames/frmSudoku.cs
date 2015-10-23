@@ -228,6 +228,8 @@ namespace BoredGames
            puzz.generate();
 
            txtGrid1_1.Text = puzz.puzzle[0, 0].ToString();
+           txtGrid1_1.Text = puzz.puzzle[0, 0].ToString();
+           txtGrid1_1.Text = puzz.puzzle[0, 0].ToString();
            txtGrid1_2.Text = puzz.puzzle[0, 1].ToString();
            txtGrid1_3.Text = puzz.puzzle[0, 2].ToString();
            txtGrid1_4.Text = puzz.puzzle[0, 3].ToString();
@@ -254,12 +256,82 @@ namespace BoredGames
            txtGrid3_7.Text = puzz.puzzle[2, 6].ToString();
            txtGrid3_8.Text = puzz.puzzle[2, 7].ToString();
            txtGrid3_9.Text = puzz.puzzle[2, 8].ToString();
+           txtGrid4_1.Text = puzz.puzzle[3, 0].ToString();
+           txtGrid4_2.Text = puzz.puzzle[3, 1].ToString();
+           txtGrid4_3.Text = puzz.puzzle[3, 2].ToString();
+           //REST OF LINE 4
 
+           txtGrid5_1.Text = puzz.puzzle[4, 0].ToString();
+           //REST OF LINE 5 HERE
+           txtGrid6_1.Text = puzz.puzzle[5, 0].ToString();
+           //REST OF LINE 6 HERE
+           txtGrid7_1.Text = puzz.puzzle[6, 0].ToString();
+           //REST OF LINE 7 HERE
+           txtGrid8_1.Text = puzz.puzzle[7, 0].ToString();
+           //REST OF LINE 8 HERE
+           txtGrid9_1.Text = puzz.puzzle[8, 0].ToString();
+           //REST OF LINE 9 HERE
        }
 
        private void btn_SudokuGenerate_Click(object sender, EventArgs e)
        {
            loadPuzzle();
+       }
+
+       private void txtGrid4_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid4_1.Text.Length != 0)
+               txtGrid4_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid4_1.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid4_2_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid4_2.Text.Length != 0)
+               txtGrid4_2.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid4_2.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid4_3_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid4_3.Text.Length != 0)
+               txtGrid4_3.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid4_3.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid5_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid5_1.Text.Length != 0)
+               txtGrid5_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid5_1.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid6_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid6_1.Text.Length != 0)
+               txtGrid6_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid6_1.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid7_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid7_1.Text.Length != 0)
+               txtGrid7_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid7_1.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid8_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid8_1.Text.Length != 0)
+               txtGrid8_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid8_1.BackColor = System.Drawing.Color.White;
+       }
+
+       private void txtGrid9_1_TextChanged(object sender, EventArgs e)
+       {
+           if (txtGrid9_1.Text.Length != 0)
+               txtGrid9_1.BackColor = System.Drawing.Color.DimGray;
+           else txtGrid9_1.BackColor = System.Drawing.Color.White;
        }
     
 

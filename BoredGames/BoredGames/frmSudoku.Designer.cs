@@ -61,6 +61,16 @@
             this.txtGrid7_2 = new System.Windows.Forms.TextBox();
             this.txtGrid5_5 = new System.Windows.Forms.TextBox();
             this.btn_SudokuGenerate = new System.Windows.Forms.Button();
+            this.txtGrid4_1 = new System.Windows.Forms.TextBox();
+            this.txtGrid5_1 = new System.Windows.Forms.TextBox();
+            this.txtGrid6_1 = new System.Windows.Forms.TextBox();
+            this.txtGrid7_1 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtGrid8_1 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtGrid9_1 = new System.Windows.Forms.TextBox();
+            this.txtGrid4_2 = new System.Windows.Forms.TextBox();
+            this.txtGrid4_3 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,6 +94,16 @@
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.txtGrid4_3);
+            this.panel1.Controls.Add(this.txtGrid4_2);
+            this.panel1.Controls.Add(this.txtGrid9_1);
+            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.txtGrid8_1);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.txtGrid7_1);
+            this.panel1.Controls.Add(this.txtGrid6_1);
+            this.panel1.Controls.Add(this.txtGrid5_1);
+            this.panel1.Controls.Add(this.txtGrid4_1);
             this.panel1.Controls.Add(this.txtGrid3_9);
             this.panel1.Controls.Add(this.txtGrid2_9);
             this.panel1.Controls.Add(this.txtGrid1_9);
@@ -523,6 +543,134 @@
             this.btn_SudokuGenerate.UseVisualStyleBackColor = true;
             this.btn_SudokuGenerate.Click += new System.EventHandler(this.btn_SudokuGenerate_Click);
             // 
+            // txtGrid4_1
+            // 
+            this.txtGrid4_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid4_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid4_1.Location = new System.Drawing.Point(3, 150);
+            this.txtGrid4_1.MaxLength = 1;
+            this.txtGrid4_1.Name = "txtGrid4_1";
+            this.txtGrid4_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid4_1.TabIndex = 30;
+            this.txtGrid4_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid4_1.TextChanged += new System.EventHandler(this.txtGrid4_1_TextChanged);
+            // 
+            // txtGrid5_1
+            // 
+            this.txtGrid5_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid5_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid5_1.Location = new System.Drawing.Point(3, 196);
+            this.txtGrid5_1.MaxLength = 1;
+            this.txtGrid5_1.Name = "txtGrid5_1";
+            this.txtGrid5_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid5_1.TabIndex = 31;
+            this.txtGrid5_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid5_1.TextChanged += new System.EventHandler(this.txtGrid5_1_TextChanged);
+            // 
+            // txtGrid6_1
+            // 
+            this.txtGrid6_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid6_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid6_1.Location = new System.Drawing.Point(3, 243);
+            this.txtGrid6_1.MaxLength = 1;
+            this.txtGrid6_1.Name = "txtGrid6_1";
+            this.txtGrid6_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid6_1.TabIndex = 32;
+            this.txtGrid6_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid6_1.TextChanged += new System.EventHandler(this.txtGrid6_1_TextChanged);
+            // 
+            // txtGrid7_1
+            // 
+            this.txtGrid7_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid7_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid7_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid7_1.Location = new System.Drawing.Point(3, 300);
+            this.txtGrid7_1.MaxLength = 1;
+            this.txtGrid7_1.Name = "txtGrid7_1";
+            this.txtGrid7_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid7_1.TabIndex = 33;
+            this.txtGrid7_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid7_1.TextChanged += new System.EventHandler(this.txtGrid7_1_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(313, 197);
+            this.textBox5.MaxLength = 1;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(71, 45);
+            this.textBox5.TabIndex = 34;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtGrid8_1
+            // 
+            this.txtGrid8_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid8_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid8_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid8_1.Location = new System.Drawing.Point(3, 346);
+            this.txtGrid8_1.MaxLength = 1;
+            this.txtGrid8_1.Name = "txtGrid8_1";
+            this.txtGrid8_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid8_1.TabIndex = 34;
+            this.txtGrid8_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid8_1.TextChanged += new System.EventHandler(this.txtGrid8_1_TextChanged);
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.White;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(321, 205);
+            this.textBox8.MaxLength = 1;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(71, 45);
+            this.textBox8.TabIndex = 35;
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtGrid9_1
+            // 
+            this.txtGrid9_1.BackColor = System.Drawing.Color.White;
+            this.txtGrid9_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid9_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid9_1.Location = new System.Drawing.Point(3, 392);
+            this.txtGrid9_1.MaxLength = 1;
+            this.txtGrid9_1.Name = "txtGrid9_1";
+            this.txtGrid9_1.Size = new System.Drawing.Size(71, 45);
+            this.txtGrid9_1.TabIndex = 35;
+            this.txtGrid9_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid9_1.TextChanged += new System.EventHandler(this.txtGrid9_1_TextChanged);
+            // 
+            // txtGrid4_2
+            // 
+            this.txtGrid4_2.BackColor = System.Drawing.Color.White;
+            this.txtGrid4_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid4_2.Location = new System.Drawing.Point(75, 150);
+            this.txtGrid4_2.MaxLength = 1;
+            this.txtGrid4_2.Name = "txtGrid4_2";
+            this.txtGrid4_2.Size = new System.Drawing.Size(72, 45);
+            this.txtGrid4_2.TabIndex = 36;
+            this.txtGrid4_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid4_2.TextChanged += new System.EventHandler(this.txtGrid4_2_TextChanged);
+            // 
+            // txtGrid4_3
+            // 
+            this.txtGrid4_3.BackColor = System.Drawing.Color.White;
+            this.txtGrid4_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGrid4_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGrid4_3.Location = new System.Drawing.Point(149, 150);
+            this.txtGrid4_3.MaxLength = 1;
+            this.txtGrid4_3.Name = "txtGrid4_3";
+            this.txtGrid4_3.Size = new System.Drawing.Size(72, 45);
+            this.txtGrid4_3.TabIndex = 37;
+            this.txtGrid4_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGrid4_3.TextChanged += new System.EventHandler(this.txtGrid4_3_TextChanged);
+            // 
             // frmSudoku
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -576,6 +724,16 @@
         private System.Windows.Forms.TextBox txtGrid1_8;
         private System.Windows.Forms.TextBox txtGrid3_7;
         private System.Windows.Forms.Button btn_SudokuGenerate;
+        private System.Windows.Forms.TextBox txtGrid4_3;
+        private System.Windows.Forms.TextBox txtGrid4_2;
+        private System.Windows.Forms.TextBox txtGrid9_1;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtGrid8_1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtGrid7_1;
+        private System.Windows.Forms.TextBox txtGrid6_1;
+        private System.Windows.Forms.TextBox txtGrid5_1;
+        private System.Windows.Forms.TextBox txtGrid4_1;
 
 
     }
