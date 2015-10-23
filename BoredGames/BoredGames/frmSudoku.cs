@@ -38,8 +38,6 @@ namespace BoredGames
             else txtGrid1_1.BackColor = System.Drawing.Color.White;
         }
 
-   
-
        private void txtGrid1_2_TextChanged(object sender, EventArgs e)
        {
            if (txtGrid1_2.Text.Length != 0)
@@ -223,7 +221,46 @@ namespace BoredGames
        }
 
       
+       private void loadPuzzle()
+       {
+           SudokuPuzzleMaker puzz = new SudokuPuzzleMaker();
 
+           puzz.generate();
+
+           txtGrid1_1.Text = puzz.puzzle[0, 0].ToString();
+           txtGrid1_2.Text = puzz.puzzle[0, 1].ToString();
+           txtGrid1_3.Text = puzz.puzzle[0, 2].ToString();
+           txtGrid1_4.Text = puzz.puzzle[0, 3].ToString();
+           txtGrid1_5.Text = puzz.puzzle[0, 4].ToString();
+           txtGrid1_6.Text = puzz.puzzle[0, 5].ToString();
+           txtGrid1_7.Text = puzz.puzzle[0, 6].ToString();
+           txtGrid1_8.Text = puzz.puzzle[0, 7].ToString();
+           txtGrid1_9.Text = puzz.puzzle[0, 8].ToString();
+           txtGrid2_1.Text = puzz.puzzle[1, 0].ToString();
+           txtGrid2_2.Text = puzz.puzzle[1, 1].ToString();
+           txtGrid2_3.Text = puzz.puzzle[1, 2].ToString();
+           txtGrid2_4.Text = puzz.puzzle[1, 3].ToString();
+           txtGrid2_5.Text = puzz.puzzle[1, 4].ToString();
+           txtGrid2_6.Text = puzz.puzzle[1, 5].ToString();
+           txtGrid2_7.Text = puzz.puzzle[1, 6].ToString();
+           txtGrid2_8.Text = puzz.puzzle[1, 7].ToString();
+           txtGrid2_9.Text = puzz.puzzle[2, 8].ToString();
+           txtGrid3_1.Text = puzz.puzzle[2, 0].ToString();
+           txtGrid3_2.Text = puzz.puzzle[2, 1].ToString();
+           txtGrid3_3.Text = puzz.puzzle[2, 2].ToString();
+           txtGrid3_4.Text = puzz.puzzle[2, 3].ToString();
+           txtGrid3_5.Text = puzz.puzzle[2, 4].ToString();
+           txtGrid3_6.Text = puzz.puzzle[2, 5].ToString();
+           txtGrid3_7.Text = puzz.puzzle[2, 6].ToString();
+           txtGrid3_8.Text = puzz.puzzle[2, 7].ToString();
+           txtGrid3_9.Text = puzz.puzzle[2, 8].ToString();
+
+       }
+
+       private void btn_SudokuGenerate_Click(object sender, EventArgs e)
+       {
+           loadPuzzle();
+       }
     
 
      
