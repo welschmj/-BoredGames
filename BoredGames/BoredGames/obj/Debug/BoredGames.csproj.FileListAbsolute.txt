@@ -39,3 +39,16 @@ C:\Users\Josh\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\Bored
 C:\Users\Josh\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.frmSudoku.resources
 C:\Users\Josh\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.Properties.Resources.resources
 C:\Users\Josh\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+=======
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\bin\Debug\BoredGames.exe.config
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.exe
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.pdb
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\bin\Debug\BoredGames.exe
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\bin\Debug\BoredGames.pdb
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.csprojResolveAssemblyReference.cache
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.frmMain.resources
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.frmSudoku.resources
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.Properties.Resources.resources
+C:\Users\malick\Documents\GitHub\-BoredGames\BoredGames\BoredGames\obj\Debug\BoredGames.csproj.GenerateResource.Cache
+>>>>>>> refs/remotes/nmalick/master
