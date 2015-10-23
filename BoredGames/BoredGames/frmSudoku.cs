@@ -699,6 +699,119 @@ namespace BoredGames
            txtGrid9_9.Text = puzz.puzzle[8, 8].ToString();
        }
 
+       private void btn_SudokuClear_Click(object sender, EventArgs e)
+       {
+           txtGrid1_1.Clear();
+           txtGrid1_2.Clear();
+           txtGrid1_3.Clear();
+           txtGrid1_4.Clear();
+           txtGrid1_5.Clear();
+           txtGrid1_6.Clear();
+           txtGrid1_7.Clear();
+           txtGrid1_8.Clear();
+           txtGrid1_9.Clear();
+
+           txtGrid2_1.Clear();
+           txtGrid2_2.Clear();
+           txtGrid2_3.Clear();
+           txtGrid2_4.Clear();
+           txtGrid2_5.Clear();
+           txtGrid2_6.Clear();
+           txtGrid2_7.Clear();
+           txtGrid2_8.Clear();
+           txtGrid2_9.Clear();
+
+           txtGrid3_1.Clear();
+           txtGrid3_2.Clear();
+           txtGrid3_3.Clear();
+           txtGrid3_4.Clear();
+           txtGrid3_5.Clear();
+           txtGrid3_6.Clear();
+           txtGrid3_7.Clear();
+           txtGrid3_8.Clear();
+           txtGrid3_9.Clear();
+
+           txtGrid4_1.Clear();
+           txtGrid4_2.Clear();
+           txtGrid4_3.Clear();
+           txtGrid4_4.Clear();
+           txtGrid4_5.Clear();
+           txtGrid4_6.Clear();
+           txtGrid4_7.Clear();
+           txtGrid4_8.Clear();
+           txtGrid4_9.Clear();
+
+           txtGrid5_1.Clear();
+           txtGrid5_2.Clear();
+           txtGrid5_3.Clear();
+           txtGrid5_4.Clear();
+           txtGrid5_5.Clear();
+           txtGrid5_6.Clear();
+           txtGrid5_7.Clear();
+           txtGrid5_8.Clear();
+           txtGrid5_9.Clear();
+
+           txtGrid6_1.Clear();
+           txtGrid6_2.Clear();
+           txtGrid6_3.Clear();
+           txtGrid6_4.Clear();
+           txtGrid6_5.Clear();
+           txtGrid6_6.Clear();
+           txtGrid6_7.Clear();
+           txtGrid6_8.Clear();
+           txtGrid6_9.Clear();
+
+           txtGrid7_1.Clear();
+           txtGrid7_2.Clear();
+           txtGrid7_3.Clear();
+           txtGrid7_4.Clear();
+           txtGrid7_5.Clear();
+           txtGrid7_6.Clear();
+           txtGrid7_7.Clear();
+           txtGrid7_8.Clear();
+           txtGrid7_9.Clear();
+
+           txtGrid8_1.Clear();
+           txtGrid8_2.Clear();
+           txtGrid8_3.Clear();
+           txtGrid8_4.Clear();
+           txtGrid8_5.Clear();
+           txtGrid8_6.Clear();
+           txtGrid8_7.Clear();
+           txtGrid8_8.Clear();
+           txtGrid8_9.Clear();
+
+           txtGrid9_1.Clear();
+           txtGrid9_2.Clear();
+           txtGrid9_3.Clear();
+           txtGrid9_4.Clear();
+           txtGrid9_5.Clear();
+           txtGrid9_6.Clear();
+           txtGrid9_7.Clear();
+           txtGrid9_8.Clear();
+           txtGrid9_9.Clear();
+       }
+
+       private void btn_SudokuExit_Click(object sender, EventArgs e)
+       {
+           DialogResult save = MessageBox.Show("Do you want to save first?", "Exit", MessageBoxButtons.YesNoCancel);
+           
+           if (save == DialogResult.No)
+           {
+               frmMain main = new frmMain();
+               main.Show();
+               this.Close();
+
+           }
+           else if (save == DialogResult.Yes)
+           {
+               //Save everything();
+               frmMain main = new frmMain();
+               main.Show();
+               this.Close();
+           }
+       }
+
        
 
        
